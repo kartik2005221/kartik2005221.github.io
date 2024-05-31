@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartik's Website</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="styles/header.css"> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #000000;
+      color: #e5e7eb; /* Light gray for text */
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center">
+	<div class="container">
+        <div class="tabs">
+            <input type="radio" id="radio-1" name="tabs" checked="">
+            <label class="tab" for="radio-1">
+                <a href="index.html" data-link>Home</a>
+				<!-- Home -->
+                <span class="notification">2</span>
+            </label>
+            <input type="radio" id="radio-2" name="tabs">
+            <label class="tab" for="radio-2">
+                <a href="portfolio.html" data-link>PortFolio</a>
+				<!-- PortFolio -->
+            </label>
+            <input type="radio" id="radio-3" name="tabs">
+            <label class="tab" for="radio-3">
+                <a href="contact.html" data-link>Contact</a>
+				<!-- Contact -->
+            </label>
+            <span class="glider"></span>
+        </div>
+    </div>
+    <main id="content">
+		<!-- Header
+		<header class="w-full py-6 bg-black text-center">
+			<h1 class="text-4xl font-bold text-blue-500">Welcome to Kartik's World</h1>
+			<p class="mt-2 text-lg">Cybersecurity Enthusiast | Web Developer | Firefox Extension Developer</p>
+		</header>
+
+		Main Content
+		<main class="flex flex-col items-center w-full px-4 py-8">
+			<section class="w-full max-w-3xl mb-8">
+			<h2 class="text-2xl font-bold text-blue-400">About Me</h2>
+			<p class="mt-4">
+				Thank you for visiting my website! Your feedback and suggestions are incredibly valuable to me as I continue to learn and grow in the field of cybersecurity and web development. Whether you have a question, a comment, or just want to say hello, please feel free to reach out. Additionally, check out my Firefox extensions in the store – I’d love to hear what you think about them. I look forward to connecting with you!
+			</p>
+			</section>
+
+			Feedback Form
+			<section class="w-full max-w-3xl mb-8">
+			<h2 class="text-2xl font-bold text-blue-400">We’d Love to Hear From You!</h2>
+			<iframe src="YOUR_GOOGLE_FORM_EMBED_URL" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			</section>
+		</main> -->
+
+		<!-- Footer -->
+		<!-- <footer class="w-full py-4 bg-black text-center">
+			<p class="text-sm">&copy; 2024 Kartik Rohilla. All rights reserved.</p>
+		</footer> -->
+		<footer class="body-font">
+			<div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+			  <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+				  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+				</svg>
+				<span class="ml-3 text-xl">Tailblocks</span>
+			  </a>
+			  <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Tailblocks —
+				<a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a>
+			  </p>
+			  <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+				<a class="text-gray-400">
+				  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+					<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+				  </svg>
+				</a>
+				<a class="ml-3 text-gray-400">
+				  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+					<path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+				  </svg>
+				</a>
+				<a class="ml-3 text-gray-400">
+				  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+					<rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+					<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+				  </svg>
+				</a>
+				<a class="ml-3 text-gray-400">
+				  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+					<path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+					<circle cx="4" cy="4" r="2" stroke="none"></circle>
+				  </svg>
+				</a>
+			  </span>
+			</div>
+		  </footer>
+	</main>
+
+
+	<script src="scripts/notrefreshing.js"></script>
+
+</body>
+</html>

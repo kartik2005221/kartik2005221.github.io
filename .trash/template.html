@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartik's Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/header.css"> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #000000;
+      color: #e5e7eb; /* Light gray for text */
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center">
+	<div class="container">
+        <div class="tabs">
+            <input type="radio" id="radio-1" name="tabs" checked="">
+            <label class="tab" for="radio-1">
+                <a href="index.html" data-link>Home</a>
+				<!-- Home -->
+                <!-- <span class="notification">2</span> -->
+            </label>
+            <input type="radio" id="radio-2" name="tabs">
+            <label class="tab" for="radio-2">
+                <a href="portfolio.html" data-link>PortFolio</a>
+				<!-- PortFolio -->
+            </label>
+            <input type="radio" id="radio-3" name="tabs">
+            <label class="tab" for="radio-3">
+                <a href="contact.html" data-link>Contact</a>
+				<!-- Contact -->
+            </label>
+            <span class="glider"></span>
+        </div>
+    </div>
+    
+
+
+	<script src="scripts/notrefreshing.js"></script>
+
+</body>
+</html>

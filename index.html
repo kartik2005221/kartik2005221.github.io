@@ -20,9 +20,9 @@
 		</div> -->
 		<div class="border border-gray-300 py-3 flex gap-1 shadow-xl rounded-md items-center justify-center fixed top-5 left-1/2 transform -translate-x-1/2 bg-white">
 		  <div class="group relative px-4 cursor-pointer">
-			<div class="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-700">
+			<div class="flex h-10 w-10 items-center justify-center rounded-full hover:text-blue-500 text-blue-500">
 				<a href="index.html">
-				<span class="material-symbols-rounded" style="font-size: 40px; color: rgb(59 130 246);">
+				<span class="material-symbols-rounded" style="font-size: 40px;">
 					home
 				</span></a>
 			</div>
@@ -67,22 +67,29 @@
 				<img class="object-cover object-center rounded-full" alt="profile of kartik" src="media/1.jpg">
 			  </div>
 			  <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center rajdhani-bold">
-				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Unlocking the Future of Cybersecurity
-				  <br class="hidden lg:inline-block"> and Web Development
+				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500">
+					<!-- Unlocking the Future of Cybersecurity
+				  <br class="hidden lg:inline-block"> and Web Development -->
+				  I am <span id="typed-output"></span>
 				</h1>
-				<p class="mb-8 leading-relaxed text-gray-400 chakra-petch-medium">Innovative Solutions by Kartik – Crafting Secure and Stunning Websites to Propel Your Business Forward.</p>
+				<p class="mb-8 leading-relaxed text-gray-400 chakra-petch-medium">Innovative Solutions by Kartik Rohilla – Crafting Secure and Stunning Websites to Propel Your Business Forward.</p>
 				<div class="flex justify-center">
-				  <button onclick="hireMe()" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ui-btn">
+				  <button onclick="hireMe()" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ui-btn">
 					<span>
 					Hire Me..!!
 				    </span></button>
-				  <button onclick="downloadCV()" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg" href="media/kartik.resume.pdf" target="_blank">
+				  <button onclick="downloadCV()" class="ml-4 inline-flex text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg" href="media/kartik.resume.pdf" target="_blank">
 					Download CV
 				  </button>
 				</div>
 			  </div>
 			</div>
 		  </section>
+
+
+
+
+		  
 	</main>
 
 
@@ -131,6 +138,12 @@
 	  </button>
 
 	  <script src="scripts/top.js"></script>
+	  <script src="scripts/iam.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/
+	   jquery/3.5.1/jquery.min.js">
+	</script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script src="node_modules/typed.js/dist/typed.umd.js"></script>
 	  <script>
 		function hireMe(){
 			window.open('https://x.com/messages/compose?recipient_id=kartik2005221')

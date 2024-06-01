@@ -155,3 +155,12 @@
 	  right: 0;
 	}
   }
+
+
+
+
+
+  .typed-cursor {
+	font-size: 2rem; /* Adjust cursor size if needed */
+	color: #e5e7eb; /* Cursor color */
+  }
